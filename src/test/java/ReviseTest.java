@@ -3,10 +3,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ReviseTest{
 
-    public static void main(String[]args){
+    public static void main (String[]args){
 
         WebDriver driver= new ChromeDriver();
-        driver.get("https://odel.lk/home");
+        driver.get("https://www.google.com/");
         driver.quit();
+
     }
 }
